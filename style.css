@@ -1,0 +1,98 @@
+@font-face {
+   font-family: oswal;
+   src: url(Oswald-Regular.ttf);
+}
+*{
+   font-family: oswal;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   background-color: #F0EBF8;
+}
+form{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   height: 100vh;
+   width: 80vh;
+   border: 0.1px solid #dadada;
+   border-radius: 10px;
+}
+div{
+   height: 16%;
+   background-color: rgb(253, 253, 253);
+   border: 1px solid #dadada;
+   margin: 15px 20px;
+   border-radius: 20px;
+   position: relative;
+}
+
+#det h2 ,p{
+   padding: 0 30px;
+   
+}
+#det p{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+#det{
+   position: relative;
+   height: 25%;
+}
+#det #email{
+   position: absolute;
+   bottom:7%;
+   font-size: 2vh;
+   
+}
+#email span{
+   color: #1B73E8;
+   font-size: 2.4vh;
+}
+#name{
+   padding: 10px 30px;
+}
+
+div h3{
+   font-size:3vh;
+   font-weight: 100;
+}
+#course{
+   padding: 10px 30px;
+}
+#intern{
+   padding: 10px 30px;
+}
+input {
+   position: absolute;
+   border: 1px solid #dadada;
+   width: 80%;
+   height: 3vh;
+  bottom: 15%;
+  font-size: 2vh;
+}
+#submit button {
+   position: absolute;
+   
+   left: 20%;
+   padding: 9px 20px;
+   font-size: 2vh;
+   background-color: #734ABC;
+   color: #fff;
+   border-radius: 5px;
+   border: none;
+}
+#submit{
+   display: flex;
+   position: relative;
+}
+#submit h3{
+   position: absolute;
+   left: 70%;
+   font-size: 2vh;
+   color: #734ABC;
+   
+} 
